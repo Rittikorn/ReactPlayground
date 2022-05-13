@@ -1,0 +1,32 @@
+{
+  "stockArr": [
+    {
+      "id": "Zj5z-oH",
+      "sname": "Potentiometer",
+      "img": "https://www.makestore.in/wp-content/uploads/2019/06/Potentiometer-10KOhm-Preset-Blue.jpg",
+      "price": "20",
+      "desc": "Potentiometer 10KOhm Preset Blue Trim POT"
+    },
+    {
+      "id": "DJHJOKo",
+      "sname": "Red LED",
+      "img": "https://inwfile.com/s-fw/qvw8pv.jpg",
+      "price": "2",
+      "desc": "5 mm 2.6 V LED"
+    },
+    {
+      "id": "z06vpAo",
+      "sname": "Capacitor",
+      "img": "https://electropeak.com/pub/media/catalog/product/cache/fa232c603e0403143aafcf902b42df2f/_/e/_e_l_electrolytic-capacitor.jpg",
+      "price": "10",
+      "desc": "100 uF 450 V electrolite capacitor"
+    },
+    {
+      "id": "zzfhmao",
+      "sname": "Relay",
+      "img": "https://inwfile.com/s-dm/4fdbfk.jpg",
+      "price": "35",
+      "desc": "KY-019 5V 1 Channel Relay Module High Trigger"
+    }
+  ]
+}
