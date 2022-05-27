@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Required Library
+
+### `npm i json-server`
+
+### `npm i react-router-dom`
+
 ## Available Scripts
 
 In the project directory, you can run:
