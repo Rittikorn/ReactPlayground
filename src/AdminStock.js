@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 
-function AdminStock({ stocks, handleDeleteStock }) {
+function AdminStock({ stocks }) {
     const navigate = useNavigate();
 
     return (
@@ -17,7 +17,6 @@ function AdminStock({ stocks, handleDeleteStock }) {
                                 <p>{s.sname}</p>
                                 <img alt='stockimg' src={s.img} height='50%' />
                                 <h1>{s.price} Baht</h1>
-                                <button className='btn' onClick={() => {handleDeleteStock(s.id)}}>Remove from stock</button>
                             </div>
                         )
                     })}

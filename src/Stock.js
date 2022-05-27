@@ -11,7 +11,9 @@ function Stock({ stocks }) {
 
     return (
         <div style={{ backgroundColor: '#f7f7ff', padding: '2em', height: '100vh' }}>
-            <h1>Welcome to Electronics Store</h1>
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2em' }}>
+                <h1>Welcome to electronics store</h1>
+            </div>
             <div className='cardarea'>
                 {stocks.map((s) => {
                     return (

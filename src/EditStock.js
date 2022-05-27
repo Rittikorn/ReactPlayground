@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-function EditStock({ handleEditStock }) {
+function EditStock({ handleEditStock, handleDeleteStock }) {
     let { sid } = useParams();
     const navigate = useNavigate();
 
@@ -60,7 +60,8 @@ function EditStock({ handleEditStock }) {
                 <input type='text' placeholder='Stock Price' value={price} onChange={handleprice} className='input'/>
                 <label className='label'>Description</label>
                 <input type='text' placeholder='Description' value={desc} onChange={handledesc} className='input'/>
-                <input type='submit' value='Done' className='btn' />
+                <button className='btn' style={{ width: '100%' }} onClick={() => {handleDeleteStock(sid); navigate('/admin');}}>Remove from stock</button>
+                <input type='submit' value='Update' className='btn' />
             </form>
         </div> : 
         <div style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

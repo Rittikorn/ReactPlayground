@@ -56,9 +56,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Stock stocks={stocks}/>} />
         <Route path='/stock/:id' element={<StockDetails stocks={stocks} />}/>
-        <Route path='/admin' element={<AdminStock stocks={stocks} handleDeleteStock={handleDeleteStock} />} />
+        <Route path='/admin' element={<AdminStock stocks={stocks} />} />
         <Route path='/admin/createstock' element={<AddStock handleAddStock={handleAddStock} />}/>
-        <Route path='/admin/editstock/:sid' element={<EditStock handleEditStock={handleEditStock}/>} />
+        <Route path='/admin/editstock/:sid' element={<EditStock handleEditStock={handleEditStock} handleDeleteStock={handleDeleteStock}/>} />
       </Routes>
     </Router>
   );
